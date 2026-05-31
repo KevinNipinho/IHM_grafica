@@ -1,14 +1,60 @@
+// objetos menu principal
 NexButton btnMenuTV(1, 1, "BotaoMenuTV");
 NexButton btnMenuLPD(1, 2, "BotaoMenuLPD");
 NexButton btnMenuAC(1, 3, "BotaoMenuAC");
 NexButton btnMenuTemp(1, 4, "BotaoMenuTemp");
 NexButton btnMenuPT(1, 5, "BotaoMenuPT");
 NexButton btnMenuTela(1, 6, "BotaoMenuTela");
-NexDSButton btnTestDual(1, 7, "btnTestDual");
-NexButton btnTesteSimple(1, 8, "btnTesteSimple");
-NexButton BotaoInicial(2, 1, "BotaoInicial");
+
+// objetos TV
+NexButton BtnInicial(2, 1, "BotaoInicial");
+NexDSButton PowerTV(2, 2, "PowerTV");
+NexButton HDMITV(2, 3, "HDMITV");
+NexButton volTV_UP(2, 4, "volTV_UP");
+NexProgressBar volBarTV(2, 5, "volBarTV");
+NexButton volTV_DOWN(2, 6, "volTV_DOWN");
+NexDSButton muteTV(2, 7, "muteTV");
+
+// objetos lampada
+
 NexButton BotaoInicial(3, 1, "BotaoInicial");
+NexDSButton interruptor1(3, 2, "interruptor1");
+NexDSButton interruptor2(3, 2, "interruptor2");
+NexDSButton interruptor3(3, 2, "interruptor3");
+NexDSButton interruptor4(3, 2, "interruptor4");
+
+// objetos projetor
 NexButton BotaoInicial(4, 1, "BotaoInicial");
+NexDSButton PowerPT(4, 2, "PowerPT");
+NexDSButton freezePT(4, 3, "freezePT");
+NexDSButton mutePT(4, 4, "mutePT");
+NexButton PT_ZOOMIN(4, 5, "PT_ZOOMIN");
+NexButton PT_ZOOMOUT(4, 6, "PT_ZOOMOUT");
+NexButton volPT_DOWN(4, 7, "volPT_DOWN");
+NexButton volPT_UP(4, 8, "volPT_UP");
+NexButton moreConfigs(4, 9, "moreConfigs");
+NexDSButton PT_esquerda(4, 10, "PT_esquerda");
+NexDSButton PT_direita(4, 11, "PT_direita");
+
+
+// objetos Ar condicionado
 NexButton BotaoInicial(5, 1, "BotaoInicial");
+NexDSButton PowerAC(5, 2, "PowerAC");
+NexDSButton AC_1(5, 3, "AC_1");
+NexDSButton AC_2(5, 3, "AC_2");
+NexDSButton AC_3(5, 3, "AC_3");
+NexDSButton AC_4(5, 3, "AC_4");
+
+
+// objetos Temperatura
 NexButton BotaoInicial(6, 1, "BotaoInicial");
+
+// objetos Tela
 NexButton BotaoInicial(7, 1, "BotaoInicial");
+NexButton telaDOWN (7, 2, "telaDOWN");
+NexButton telaUP (7, 3, "telaUP");
+NexButton telaFreeze (7, 4, "telaFreeze");
+NexDSButton tela_Esquerda(7, 5, "tela_Esquerda");
+NexDSButton tela_Direita(7, 6, "tela_Direita");
+
+
