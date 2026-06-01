@@ -19,9 +19,9 @@ NexDSButton muteTV(2, 7, "muteTV");
 
 NexButton BotaoInicial(3, 1, "BotaoInicial");
 NexDSButton interruptor1(3, 2, "interruptor1");
-NexDSButton interruptor2(3, 2, "interruptor2");
-NexDSButton interruptor3(3, 2, "interruptor3");
-NexDSButton interruptor4(3, 2, "interruptor4");
+NexDSButton interruptor2(3, 3, "interruptor2");
+NexDSButton interruptor3(3, 4, "interruptor3");
+NexDSButton interruptor4(3, 5, "interruptor4");
 
 // objetos projetor
 NexButton BotaoInicial(4, 1, "BotaoInicial");
