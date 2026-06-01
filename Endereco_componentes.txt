@@ -41,9 +41,19 @@ NexDSButton PT_direita(4, 11, "PT_direita");
 NexButton BotaoInicial(5, 1, "BotaoInicial");
 NexDSButton PowerAC(5, 2, "PowerAC");
 NexDSButton AC_1(5, 3, "AC_1");
-NexDSButton AC_2(5, 3, "AC_2");
-NexDSButton AC_3(5, 3, "AC_3");
-NexDSButton AC_4(5, 3, "AC_4");
+NexDSButton AC_2(5, 4, "AC_2");
+NexDSButton AC_3(5, 5, "AC_3");
+NexDSButton AC_4(5, 6, "AC_4");
+NexDSButton AC_autoMode(5, 7, "AC_autoMode");
+NexDSButton AC_coolMode(5, 8, "AC_coolMode");
+NexDSButton AC_fanMode(5, 9, "AC_fanMode");
+NexDSButton AC_fanMEDIUM(5, 10, "AC_fanMEDIUM");
+NexDSButton AC_fanLOW(5, 11, "AC_fanLOW");
+NexDSButton AC_fanHIGH(5, 12, "AC_fanHIGH");
+NexDSButton AC_fanQUIET(5, 13, "AC_fanQUIET");
+texto temp_AC(5, 14, "temp_AC");
+NexButton AC_temp_UP(5, 15, "AC_temp_UP");
+NexButton AC_temp_DOWN(5, 16, "AC_temp_DOWN");
 
 
 // objetos Temperatura
