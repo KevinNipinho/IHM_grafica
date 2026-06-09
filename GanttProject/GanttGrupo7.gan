@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-05-20" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="200" order="0"/>
+        <field id="tpd4" name="Data inicial" width="75" order="1"/>
+        <field id="tpd5" name="Data final" width="75" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#6600ff #cc00cc #0000cc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Função" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="04b7caee2ee14cba8a36113c43c8f52f" name="Planejamento" meeting="false" start="2026-05-25" duration="5" complete="100" expand="true">
+            <task id="1" uid="dffb31a3c99347fdab9a157c806ff590" name="Dividir de Terefas" meeting="false" start="2026-05-25" duration="3" complete="100" expand="true"/>
+            <task id="2" uid="a5dc07c2bb264a8bae3b73d3c383ddd6" name="Documentar o projeto" meeting="false" start="2026-05-25" duration="2" complete="100" expand="true"/>
+            <task id="3" uid="d4ae02004f564c2292c6d0175d2ec4cb" name="Mapa de Empatia" meeting="false" start="2026-05-25" duration="1" complete="100" expand="true"/>
+            <task id="6" uid="a31bf5cfc9924533a874112170f30288" name="Levantamento de requisitos" color="#8cb6ce" meeting="false" start="2026-05-25" duration="1" complete="100" expand="true"/>
+            <task id="5" uid="a67c59ad5e084b8fb2f28f69686e9c14" name="Estratégias de apresentação" color="#8cb6ce" meeting="false" start="2026-05-25" duration="1" complete="100" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="4" uid="7cfd0313eba94d57be0dd0368f1f149a" name="Brainstorming" color="#8cb6ce" meeting="false" start="2026-05-25" duration="1" complete="100" expand="true"/>
+            <task id="9" uid="507a50e938fb40b2a8672aae66056171" name="Prototipação dos Módulos" meeting="false" start="2026-05-26" duration="4" complete="100" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Rubber"/>
+                <depend id="15" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="10" uid="bdd9129ee7dd489b93d7b3f233d37a8b" name="Finalização e alinhamento do planejamento" meeting="false" start="2026-05-27" duration="3" complete="100" expand="true"/>
+        </task>
+        <task id="7" uid="0ed6b7cd86784e1d97b1160bd0cb073b" name="Desenvolvimento" meeting="false" start="2026-05-26" duration="9" complete="93" expand="true">
+            <task id="8" uid="627fd0b967544098a0ff764e665ec1bb" name="Desenvolver parte gráfica do Display" color="#cc00cc" meeting="false" start="2026-05-26" duration="4" complete="100" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="12" uid="536431d0d62e443481e8063497b382cb" name="Desenvolver código" color="#cc00cc" meeting="false" start="2026-05-26" duration="4" complete="90" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="13" uid="67c36094570e4bb8867ec2e059143677" name="sincronizar Tela e Código" color="#cc00cc" meeting="false" start="2026-06-01" duration="1" complete="95" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="14" uid="7e1ef58ab3804244a6e1da617b868dc8" name="Comunicação entre os módulos" color="#cc00cc" meeting="false" start="2026-06-02" duration="2" complete="95" expand="true"/>
+            <task id="15" uid="96fcc5ef873d4ce6903992e0648e6ae7" name="Realização dos Testes" color="#cc00cc" meeting="false" start="2026-06-05" duration="1" complete="80" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="16" uid="c10613606eb24103a1f250c09e33edc2" name="Finalização" meeting="false" start="2026-06-05" duration="5" complete="36" expand="true">
+            <task id="17" uid="76438fcfae10446ca637f8f1c293977b" name="Montar Apresentação" color="#6600ff" meeting="false" start="2026-06-05" duration="2" complete="90" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="18" uid="b8583a2d179c4691a33e83fce7ced924" name="Estudar Apresentação" color="#6600ff" meeting="false" start="2026-06-09" duration="2" complete="0" expand="true"/>
+            <task id="19" uid="627312836698442d809e89a0845689da" name="Montar projeto para apresentação" color="#6600ff" meeting="false" start="2026-06-11" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
